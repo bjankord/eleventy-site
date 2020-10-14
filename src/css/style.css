@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+html{
+	overflow-y: scroll;
+}
+
+body {
+  background-color: #222;
+	color: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 1.25rem;
+	margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a,
+a:visited,
+a[href] {
+  color: #61dafb;
+}
+
+#site {
+  text-align: center;
+}
+
+.logo {
+  margin: 2rem;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

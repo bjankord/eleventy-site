@@ -1,0 +1,12 @@
+{
+  "name": "eleventy-site",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Brett Jankord",
+  "license": "MIT",
+  "description": "Simple eleventy starter site",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve --input=src --output=dist --formats=html,njk,gif,png,jpg,webp,css,js",
+    "build": "npx @11ty/eleventy --input=src --output=dist --formats=html,njk,gif,png,jpg,webp,css,js"
+  }
+}
