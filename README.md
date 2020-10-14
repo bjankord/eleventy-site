@@ -1,5 +1,7 @@
 # eleventy-site
-Simple eleventy starter site
+Simple eleventy starter site.
+
+Demo: https://bjankord.github.io/eleventy-site/
 
 ## Usage
 Clone the repo
